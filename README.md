@@ -29,10 +29,10 @@ $$ class3:\quad\mu = \binom{5}{3} \qquad
 $$
 
 Use generated data and estimate the density without pre-assuming a model for the distribution which is done by a non-parametric estimation.
-Implement the Parzen Window PDF estimation methods using h=0.09,0.3,0.6. Estimate P(X) and Plot the true and estimated PDF.
+Implement the KNN PDF estimation methods using h=0.09,0.3,0.6. Estimate P(X) and Plot the true and estimated PDF.
 ### True Density 3D
 ![true density 3d](https://github.com/Ghafarian-code/Parzen-Window-Non-Parametric-Density-Estimation/blob/main/images/Figure_2.png)
-### Parzen Window Density 3D
+### KNN Density 3D
 ![Parzen Window density 3d](https://github.com/Ghafarian-code/Parzen-Window-Non-Parametric-Density-Estimation/blob/main/images/Figure_4.png)
 
 Then employ the estimated Gaussian kernel for each class and do the followings with standard deviation 0.6:                                    
