@@ -35,6 +35,6 @@ Implement the KNN PDF estimation methods using h=0.09,0.3,0.6. Estimate P(X) and
 ### KNN Density 3D
 ![KNN density 3d](https://github.com/Ghafarian-code/KNN-Non-Parametric-Density-Estimation/blob/master/images/Figure_4.png)
 
-Then employ the estimated Gaussian kernel for each class and do the followings with standard deviation 0.6:                                    
-a) Divide the samples into a 90% train and 10% test data randomly.                                                                             
-b) Use Bayesian estimation and predict the class labels while reporting train, test and total accuracies.                                      
+At k=1, the graph is sensitive to noise and it causes discontinuity.
+At k = 9, for each x, we considered 9 of its neighbors, and our volume has become larger and the peaks are more specific.
+At k = 99, multiclass data and paeks are clearer and the graph is smoother.                                    
